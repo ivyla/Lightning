@@ -21,7 +21,7 @@ void draw()
 	b = (int)(Math.random()*256);
 
 //If you want it to draw immediately, change if to while
-	while(endY < 600) 
+	if(endY < 600) 
 	{
 	endX = startX + (int)(Math.random()*18) - 9;
 	endY = startY + (int)(Math.random()*15);
